@@ -1,4 +1,4 @@
-import React, {useEffect, useState } from "react";
+import React, {useEffect , useState } from "react";
 
 function Question({ question, onAnswered }) {
   const [timeRemaining, setTimeRemaining] = useState(10);
